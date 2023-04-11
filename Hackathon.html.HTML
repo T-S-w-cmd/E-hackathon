@@ -1,0 +1,136 @@
+<!doctype html>
+<html><head><title>EQUITY HACKERTHON</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+
+
+</head>
+    <body>
+        
+
+        <div id="mySidenav" class="sidenav">
+           
+           
+            <p class="logo"><span>SCHOLARS<br></span>COMMUNITY</p>
+
+            <a href="#" class="icon-a" id="link_dashboard" onclick="dashboard()"><i class="fa-solid fa-dashboard"></i>&nbsp;&nbsp;DASHBOARD</a>
+            
+        <a href="#" class="icon-a" id="link_details" onclick="details()" ><i class="fa-solid fa-user"></i>&nbsp;
+        PROFILE
+        </a>
+
+
+        <a href="#" class="icon-a" id="link_news" onclick="news()"><i class="fa-solid fa-bullhorn"></i>&nbsp;&nbsp;ANNOUNCEMENT</a>
+        <a href="#" class="icon-a" id="link_events" onclick="events()"> <i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;EVENT</a>
+        <a href="#" class="icon-a" id="link_events" onclick="chapter()"> <i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;CHAPTER COMMUNITIES</a>
+        <a href="#" class="icon-a" id="link_dashboard" onclick="contact()"><i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp;Contact Us</a>
+        <a href="#" class="icon-a" id="link_dashboard" onclick="logout()"><i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp;logout</a>
+  
+    </div>
+
+    <div id="main">
+        <div id="dashboard" class="dashboard">
+            
+<div class="images">
+<div class="im1"><img src="2.png.jpg" alt=""></div>
+<div class="im2"> <img src="pic.png.jpg" alt=""></div>
+</div>
+
+<div class="myboxex">
+
+    <div class="boxes"><h3>Events<h3></div>
+        <div class="boxes"><h3>SCHOLARSHIP</h3></div>
+        <div class="boxes"><h3>Announcement</h3></div>
+</div>
+
+
+
+
+            
+        </div>
+
+        <div id="contact" style="display: none;">
+            <div class="contacts">
+                <h1>Contact us Via:</h1>
+           <p>Email: support@equitygroupfoundation.org</p>
+           <p>Customer Helpline: 0763000000</p>
+            </div>
+           
+             
+        </div>
+
+
+        <div id="events" style="display: none;">
+            <div class="events">
+                <a href="">  <h1>Webinars</h1></a>
+                <a href=""><h1>Conferences</h1></a>
+            </div>
+         
+          
+        </div>
+
+        <div class="news" id="news" style="display: none;">
+            <div class="mynews">
+                <h1>Hello Scholars! <br> </h1>
+                <h1>This is our new Platform set to have you on board.</h1>
+                <h1>Important information will be posted here!</h1>
+            </div>
+            
+        </div>
+
+        <div class="details" id="details" style="display: none;"> 
+            <div id="headername"><h1>UPDATE YOUR PROFILE</h1></div>
+            <div id="profile">  <form action="" id="detailsform"> 
+                <label for="username">Name</label>
+              <input type="text" id="username" name="username" required>
+              <label for="password">Home Branch</label>
+              <input type="text" id="hm-branch"  required>
+              <label for="password">Email Address</label>
+              <input type="email" id="hm-branch"  required>
+              <label for="password">Contact</label>
+              <input type="text" id="hm-branch"  required>
+              <label for="password">Guardian/Parent Name</label>
+              <input type="text" id="hm-branch"  required>
+              <label for="password">Guardian/Parent Contact</label> 
+              <input type="text" id="hm-branch"  required>
+              <label for="password">Mean Grade Attained</label> 
+              <input type="text" id="hm-branch"  required>
+              <label for="password">Course</label> 
+              <input type="text" id="hm-branch"  placeholder="eg. BSc.ICTM">
+              <label for="password">Year Of Study</label>
+              <input type="text" id="hm-branch" placeholder="eg. Year1/on internship/employed/attachment">
+              <label for="scholarship">Scholarship</label> 
+              <select name="scholarship" id="scholarship"  form="detailsform">
+                <option value="">scholarship</option>
+                <option value="">TVET</option>
+                <option value="">OTHERS</option>
+              </select>
+              <button type="submit">Update</button>
+
+
+            </form></div>
+            
+        </div>
+
+        <div class="annaouncement" id="annaouncement" style="display: none;">
+            <h1>some  accouncments</h1>
+        </div>
+
+
+
+        <div class="chapter" id="chapter" style="display: none;">
+            
+            <select>
+<option>In which chapter do you belong?</option>
+<option>MASENO UNIVERSITY ELC</option>
+<option>MOI UNIVERSITY ELC</option>
+<option>JKUAT UNIVERSITY ELC</option>
+<option>UON UNIVERSITY ELC</option>
+<option>KU UNIVERSITY ELC</option>
+</select>
+        </div>
+    </div>
+
+    </body>
+    <script src="js/script.js"></script>
+</html>

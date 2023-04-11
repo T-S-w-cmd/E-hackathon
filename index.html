@@ -1,0 +1,37 @@
+<html>
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+    <body>
+        <div class="forms-wrapper">
+          <h1> Eqity  platform</h1>
+        <div id="login-form">
+          <p onclick="login()">one</p>
+            <h2>Login</h2>
+            <form onsubmit="login(); return false;">
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+              <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="register-link">Register here</a></p>
+          </div>
+          
+          <div id="register-form" style="display: none;">
+            <h2>Register</h2>
+            <form>
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required> 
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+              <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" id="login-link">Login here</a></p>
+          </div>
+        </div>
+
+          <script src="js/script.js"></script>
+    </body>
+</html>

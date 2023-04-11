@@ -1,0 +1,341 @@
+.forms-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   flex-direction: column;
+    
+  }
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #login-form,
+  #register-form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+/* kkkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+
+  .body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(39, 46, 29); */
+    overflow: auto;
+    font-family: system-ui;
+
+}
+.clearfix
+{
+clear: both;
+
+}
+.logo{
+margin: 0px;
+margin-left: 0px;
+font-weight: bold;
+color: rgb(7, 150, 43);
+margin-bottom: 10px;
+font-size: 40px;
+background-color: rgb(139, 67, 67);
+
+}
+.logo span{
+color: white;
+font-size: 50px;
+}
+.sidenav
+{
+height: 100%;
+width: 300px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(24, 24, 56);
+overflow: auto;
+transition: 0.5s;
+padding-top: 30px;
+border-right: 10px solid green;
+color: rgb(95, 83, 83);
+font-style: normal;
+}
+.sidenav a{
+padding:15px 8px 32px;
+text-decoration: none;
+font-size: 20px;
+color: rgb(134, 134, 133);
+display: block;
+transition: 0.3s;
+
+
+}
+.sidenav a:hover{
+color: rgb(22, 5, 5);
+background-color: rgb(239, 245, 239);
+line-height:100%;
+}
+
+#main{
+transition: margin-left .5s;
+
+margin-left: 300px;
+background-color: rgb(185, 174, 196);
+height: 100vh;
+}
+.head{
+padding: 10px;
+
+}
+.col-div-6{
+width: 50%;
+float: left;
+}
+
+.profile{
+display: block;
+float: right;
+width: 160px;
+}
+.pro-img{
+    float: left;
+    width: 70px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.profile p{
+color: rgb(226, 205, 205);
+font-weight: 500;
+margin-left: 10px;
+margin-top: 10px;
+font-size: 14px;
+
+}
+.profile p span{
+font-weight: 400;
+font-size: 13px;
+display: block;
+color: rgb(159, 159, 173);
+
+}
+.nav{
+
+display: none;
+}
+.col-div-3{
+width: 30%;
+float: left;
+
+}
+.box{
+width: 85%;
+height: 100px;
+background-color: rgb(179, 36, 36);
+margin-left: 30px;
+padding: 10px;
+cursor: pointer;
+
+}
+
+.box p{
+font-size: 30px;
+font-weight: bold;
+line-height: 30px;
+padding-left: 10px;
+margin-top: 10px; color: rgb(228, 228, 238);
+display: block;
+cursor: pointer;
+}
+.box p span{
+font-size: 20px;
+font-weight: 400;
+color: white;
+cursor: pointer;
+}
+.box-icon{
+font-size: 40px !important;
+float: right;
+margin-top: 35px !important;
+padding-right: 10px;
+cursor: pointer;
+}
+.col-div-4{
+width: 30%;
+float: left;
+}
+.col-div-8{
+position: relative;
+}
+
+
+.content-box{
+position: absolute;
+bottom: 0;
+}
+.content-box p{
+margin: 50px;
+font-size: 20px;
+color: rgb(192, 144, 144);
+
+}
+select{
+    background-color:white;
+    border: none; 
+    font-size: 20px;
+}
+select option{
+  font-size: 12px;
+}
+select:hover ,select:focus{
+    color:  black;
+    background-color: rgb(239, 245, 239);
+border: none;
+    
+}
+.dashboard{
+  display: flex;
+  flex-direction: column;
+ margin: auto;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.im1 img, .im2 img{ 
+width: 200px;
+height: 150px;
+margin: 5px;
+border-radius: 50%;
+}
+.myboxex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.boxes{
+
+  display: flex;
+  background-color: rgb(33, 31, 153);
+  margin-top: 150px;
+ width: 150px;
+ height: 100px;
+ justify-content: center;
+ align-items: center;
+ border-radius: 30px;
+}
+.boxes h3{
+  color: white;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#headername{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  
+}
+#headername h1{
+  color: white;
+}
+#profile{
+  display: flex;
+width: 100%;
+background-color: #ccc;
+flex-direction: column;
+
+}
+#profile form{
+width: 500px;
+margin: auto;
+padding: 40px;
+
+}
+
+.mynews{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+ 
+
+}
+.mynews h1{
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  margin: auto;
+  margin-top: 100px;
+}
+.chapter{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+padding-left: 300px;
+padding-top: 20px;
+}
+#contact{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contacts{
+  margin: auto;
+}
+#contact div h1{
+  font-size: 70px;
+}
+#contact div p{
+  font-size: 30px;
+}
+
+#events{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+}
+.events{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  height: 100vh;
+}
